@@ -1,0 +1,108 @@
+@media only screen and (max-width: 800px) {
+    .topbar{
+        display: none;
+    }
+    .banner-card .card {
+        border-radius: 0px !important;
+        width: auto;
+        height: 278px;
+      }
+      .banner-card{
+        position: unset;
+      }
+      .banner-2{
+        padding: 50px 0;
+      }
+      .choose-bg{
+        background-position: bottom;
+      }
+      .choose-bg2{
+        position: unset;
+        padding: 10px;
+      }
+      .service{
+        padding: 25px;
+      }
+      .owl-carousel .card{
+        width: auto;
+      }
+      .away .away2{
+        position: unset;
+      }
+      .away2 .row{
+        gap: 50px !important;
+      }
+      .news .news2 {
+        margin-top: 52px;
+      }
+      .news{
+        margin-top: 437px !important;
+        padding: 15px !important;
+      }
+      .news .news3{
+        gap: 200px !important;
+      }
+      .navbar-collapse{
+        position: absolute;
+      left: 40%;
+      top: 7%;
+      background-color: white;
+      width: 33%;
+      padding: 26px;
+      border-radius: 10px;
+    }
+    .away2 .awa{
+      border-right: unset;
+    }
+
+}
+@media only screen and (max-width: 992px) {
+  .service{
+    padding: 50px 100px 100px 100px;
+    background-image: url(../images/washla-7.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.choose-bg2{
+  position: unset;
+  padding: 10px !important;
+}
+.away2 .row{
+  gap: 0px !important;
+  row-gap: 20px !important;
+}
+.footer{
+  margin-top: 320px;
+}
+.away2 .awa{
+  border-right: unset;
+}
+.navbar-collapse{
+  position: absolute;
+    left: 40%;
+    top: 7%;
+    background-color: white;
+    width: 33%;
+    padding: 26px;
+    border-radius: 10px;
+}
+}
+@media only screen and (max-width: 1200px) {
+    .banner-card .card{
+        width: auto;
+        height: 250px;
+    }
+    .owl-carousel .card{
+        width: auto;
+    }
+    /* .navbar-collapse{
+        position: absolute;
+      left: 40%;
+      top: 7%;
+      background-color: white;
+      width: 33%;
+      padding: 26px;
+      border-radius: 10px;
+    }*/
+} 
